@@ -114,9 +114,9 @@ class WeightConverterGUI extends JFrame { // ta klasa jest klasą interfejsu uż
         historyButton.addActionListener(new HistoryButtonListener());
 
         add(new JLabel("Wprowadź wartość: "));
+        add(dagsButton);
         add(inputField);
         add(gramsButton);
-        add(dagsButton);
         add(kgsButton);
         add(historyButton);
         add(new JScrollPane(outputArea));
